@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income Budget App</title>
+  <link rel = "stylesheet" href = "style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <section id = "title">
+      <h1>Income Budget Website</h1>
+    </section>
+
+    <section id = "budget">
+      <div class = "user_amount"> 
+        <h3 class = "dolla_sign">$</h3>
+        <h3>Enter Budget</h3>
+        <input type = "text" id = "budget_amount">
+
+        <br>
+
+        <button type = "button" id = "submit_button">Submit</button>   
+      </div>   
+    </section>  
+
+    <section id = "expenses">
+      <div class = "expense_amount">
+        <h3>Enter Expense Name</h3>
+        <input type = "text" id = "enter_expense">
+
+        <br>
+
+        <h3>Enter Expense Percentage Value</h3>
+        <h3 class = "percentage_sign">%</h3>
+        <input type = "text" id = "enter_percentage">
+
+        <br>
+
+        <button type = "button" id = "add_button">Add Expenses</button>
+      </div>
+    </section>
+
+    <div id = "display_budget">
+      <h1>Budget</h1>
+      <label id = "budget_label"></label>
+    </div>
+
+    <div id = "display_balance"> 
+      <h1>Balance</h1>
+      <label id = "balance_label"></label>
+    </div> 
+
+    <div id = "display_expense">
+      <h3>Expenses</h3>
+      <ol id = "display_expenses"></ol>
+    </div>
+      
+    <div id = "display_expensePercentages">
+      <h3>Expense Percentage</h3>
+      <ol id = "display_expensePercentage"></ol>
+    </div>  
+   
+    <div id = "display_expenseAmounts">
+      <h3>Expense Amount</h3>
+      <ol id = "display_expenseAmount"></ol>
+
+      <label id = "total_label">Total:</label>
+      <label id = "total_amount"></label>
+    </div>  
+    
+    <script src="script.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,127 @@
+body{
+
+  font-family: "Inconsolata";
+
+  background-color:beige
+
+}
+
+#title{
+  position: absolute;
+  top: 50px;
+  left: 575px;
+
+  font-size: 36px;
+}
+
+#budget{
+  border-style:solid;
+  border-color: chartreuse;
+  padding: 5px;
+  width: 250px;
+  height: 120px;
+
+  margin-top: 300px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+
+#expenses{
+  border-style:solid;
+  border-color: red;
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  
+  position: absolute;
+  margin-left: 150px;
+}
+
+#display_budget{
+  position: absolute;
+  top: 350px;
+  left: 600px;
+}
+
+#display_balance{
+  position: absolute;
+  top: 350px;
+  left: 900px;
+}
+
+#display_expense{
+  position: absolute;
+  top: 550px;
+  left: 500px;
+}
+
+#display_expensePercentages{
+  position: absolute;
+  top: 550px;
+  left: 775px;
+}
+
+#display_expenseAmounts{
+  position: absolute;
+  top: 550px;
+  left: 1150px;
+}
+
+#total_label{
+  text-decoration: overLine;
+}
+
+#total_amount{
+  float: right;
+}
+
+.dolla_sign{
+  float: left;
+
+  position: relative; 
+  top: 19.5px;
+}
+
+#submit_button{
+  position: relative;
+  top: 15px;
+}
+
+#budget_amount{
+  position: relative;
+  left: 10px;
+}
+
+.percentage_sign{
+  float: right;
+
+  position: relative;
+  bottom: 20px;
+  right: 56px;
+}
+
+#add_button{
+  position: relative;
+
+  top: 15px;
+}
+
+#budget_label{
+  font-size: 24px;
+}
+
+#balance_label{
+  font-size: 24px;
+}
+
+#display_expenses{
+  font-size: 18px;
+}
+
+#display_expensePercentage{
+  font-size: 18px;
+}
+
+#display_expenseAmount{
+  font-size: 18px;
+}
